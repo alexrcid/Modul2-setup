@@ -16,6 +16,7 @@
 - borrar rutas/vistas que no utilices
 - instalar nodemon 
     - `$ npm install --save-dev nodemon`
+    
 **package.json**
 ```
 {
