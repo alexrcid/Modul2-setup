@@ -7,14 +7,14 @@
 
 - instalar express generator global 
     `$ npm install -g express-generator`
-- 1. crear un proyecto
+- crear un proyecto
     `$ express <carpeta name> --view=ejs --git`
-- 2. Asegurarse que entras en la carpeta
+- asegurarse que entras en la carpeta
      `$ cd <carpeta name >`
-- 3. Instalar dependencias 
+- instalar dependencias 
      `$ npm install`
-- 4. Borrar rutas/vistas que no utilices
-- 5.  Instalar nodemon 
+- borrar rutas/vistas que no utilices
+- instalar nodemon 
     `$ npm install --save-dev nodemon`
     package.json
 ```
@@ -32,7 +32,7 @@
 
 [Link](https://mongoosejs.com/docs/guide.html)
 
-5 - Configurar Mongoose 
+- configurar Mongoose 
      `npm install --save mongoose`
 
 **app.js**
@@ -41,7 +41,7 @@
     mongoose.connect('mongodb://localhost/product-example-development')
 ```
 
-6 - Crear el modelo y una carpeta llamada `models`
+- crear el modelo y una carpeta llamada `models`
 
 **models.js**
 ```
@@ -64,13 +64,13 @@ module.exports = Blog;
 ....
 ```
 
-7 - CRUD - Queries
+- CRUD - Queries
 
 - [Methods model](https://mongoosejs.com/docs/api.html#Model)
 
 ### Express Layout
 
-8 - Express EJS Layout
+- express EJS Layout
 
 [Link](https://github.com/Soarez/express-ejs-layouts#readme)
 
