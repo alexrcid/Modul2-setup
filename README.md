@@ -6,7 +6,7 @@
 [Link API Express](https://expressjs.com/en/4x/api.html)
 
 - instalar express generator global 
-     -`$ npm install -g express-generator`
+     - `$ npm install -g express-generator`
 - crear un proyecto
     - `$ express <carpeta name> --view=ejs --git`
 - asegurarse que entras en la carpeta
