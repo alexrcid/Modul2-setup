@@ -5,16 +5,16 @@
 
 [Link](https://expressjs.com/en/4x/api.html)
 
-instalar express generator global 
+- instalar express generator global 
     `$ npm install -g express-generator`
-1- crear un proyecto
+- 1. crear un proyecto
     `$ express <carpeta name> --view=ejs --git`
-2 - Asegurarse que entras en la carpeta
+- 2. Asegurarse que entras en la carpeta
      `$ cd <carpeta name >`
-3 - Instalar dependencias 
+- 3. Instalar dependencias 
      `$ npm install`
-4 - Borrar rutas/vistas que no utilices
-5 - Instalar nodemon 
+- 4. Borrar rutas/vistas que no utilices
+- 5.  Instalar nodemon 
     `$ npm install --save-dev nodemon`
     package.json
 ```
