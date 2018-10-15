@@ -42,7 +42,7 @@
     mongoose.connect('mongodb://localhost/product-example-development')
 ```
 
-- crear archivo models `model/models.js`
+- crear archivo models `models/models.js`
 
 **models.js**
 ```
@@ -76,6 +76,7 @@ module.exports = Blog;
 [Link EJS Layouts](https://github.com/Soarez/express-ejs-layouts#readme)
 
 `$ npm install --save express-ejs-layouts`
+
 **app.js**
 ```
     const expressLayouts = require('express-ejs-layouts');
