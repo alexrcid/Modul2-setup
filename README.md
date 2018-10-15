@@ -42,7 +42,7 @@
     mongoose.connect('mongodb://localhost/product-example-development')
 ```
 
-- crear el modelo y una carpeta llamada `models`
+- crear archivo models `model/models.js`
 
 **models.js**
 ```
