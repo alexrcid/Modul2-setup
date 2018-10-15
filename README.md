@@ -3,20 +3,20 @@
 ## Comenzar un proyecto
 ### Express 
 
-[Link](https://expressjs.com/en/4x/api.html)
+[Link API Express](https://expressjs.com/en/4x/api.html)
 
 - instalar express generator global 
-    `$ npm install -g express-generator`
+     -`$ npm install -g express-generator`
 - crear un proyecto
-    `$ express <carpeta name> --view=ejs --git`
+    - `$ express <carpeta name> --view=ejs --git`
 - asegurarse que entras en la carpeta
-     `$ cd <carpeta name >`
+     - `$ cd <carpeta name >`
 - instalar dependencias 
-     `$ npm install`
+     - `$ npm install`
 - borrar rutas/vistas que no utilices
 - instalar nodemon 
-    `$ npm install --save-dev nodemon`
-    package.json
+    - `$ npm install --save-dev nodemon`
+**package.json**
 ```
 {
     ...
@@ -30,7 +30,7 @@
 
 ### Mongoose
 
-[Link](https://mongoosejs.com/docs/guide.html)
+[Link Mongoose API](https://mongoosejs.com/docs/guide.html)
 
 - configurar Mongoose 
      `npm install --save mongoose`
@@ -72,7 +72,7 @@ module.exports = Blog;
 
 - express EJS Layout
 
-[Link](https://github.com/Soarez/express-ejs-layouts#readme)
+[Link EJS Layouts](https://github.com/Soarez/express-ejs-layouts#readme)
 
 `$ npm install --save express-ejs-layouts`
 **app.js**
